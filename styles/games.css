@@ -1,0 +1,699 @@
+/* 1. don't modify this style */
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+/* 2. we use :root for default variables */
+:root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --bg-gradint: #3B2A9F;
+    --secondary-color: #FA8305;
+    --primary-100: #5141AA;
+    --black-700: #000;
+    --brown-box: #1C140F;
+}
+/* 3. and we use it like this */
+.elementOne {
+    /* var(--"somekey-attr") */
+    background-color: var(--black-700);
+}
+
+/* good luck */
+
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: rubik;
+    src: url(../assets/fonts/Rubik-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+.head {
+    padding-top: 3px;
+    background-color: var(--bg-gradint);
+    width: 1440px;
+    height: 100px;
+    padding-left: 0.23px;
+    font-family: poppins;
+    color: white;
+    display: flex;
+}
+
+.head #el1 {
+    width: 82px;
+    font-weight: 800;
+    font-size: 29px;
+    margin-left: 59px;
+    margin-top: 25px;
+}
+
+.head #el2 {
+    width: 673.77px;
+    height: 41.34px;
+    margin-left: 566px;
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+}
+
+.head #sub-el2-1{
+    width: 505.41px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head #sub-el2-1-a {
+    display: flex;
+    width: 39px;
+    height: 4px;
+    margin-top: 6.8px;
+    justify-content: space-between;
+}
+
+.head #sub-el2-1-a #hr1{
+    width: 31px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border: none;
+}
+
+.head #sub-el2-1-a #hr2{
+    width: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border: none;
+}
+
+.head #sub-el2-2{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    width: 131.77px;
+    margin-left: 36.59px;
+    padding-top: 10px;
+    background: var(--secondary-color);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.main {
+    background-color: var(--bg-gradint);
+    width: 1440px;
+}
+
+.s1 {
+    height: 821px;
+    font-family: poppins;
+}
+
+.s1 #el1 {
+    padding-top: 114px;
+    margin-left: 110px;
+    width: 425px;
+    height: 450px;
+    color: white;
+}
+
+.s1 #el1 h6 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.s1 #el1 h6 span{
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.s1 #el1 h1 {
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54.15px;
+}
+
+.s1 #el1 p {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31.28px;
+}
+
+.s1 #el1 #sub-el1-1 {
+    margin-top: 57.16px;
+    padding-top: 10.84px;
+    width: 176px;
+    height: 47.84px;
+    background: var(--secondary-color);
+    border-radius: 40px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.s1 #el1 #sub-el1-1 img{
+    margin-left: 18px;
+}
+
+.s1 #whole-el {
+    display: flex;
+}
+
+.s1 #el2 img{
+    position: absolute;
+    width: 739px;
+    height: 656px;
+    margin-left: 166px;
+    margin-top: 21px;
+}
+
+.s2 {
+    height: 603px;
+    font-family: poppins;
+    color: white;
+    padding-left: 110px;
+}
+
+.s2 h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.s2 #whole-el {
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+}
+
+.s2 #whole-el #el1 {
+    margin-top: 63px;
+    background: var(--brown-box);
+    width: 378px;
+    height: 348px;
+    border-radius: 20px;
+    padding-top: 64px;
+    padding-left: 37px;
+}
+
+.s2 #whole-el #el1 h5 {
+    width: 140px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    background: #B000DC1C;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.s2 #whole-el #el1 h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.s2 #whole-el #el1 p {
+    width: 304px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 26.25px;
+}
+
+.s2 #whole-el #el2 {
+    margin-top: 63px;
+    background: var(--brown-box);
+    width: 378px;
+    height: 348px;
+    border-radius: 20px;
+    padding-top: 64px;
+    padding-left: 37px;
+}
+
+.s2 #whole-el #el2 h5 {
+    width: 140px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    background: #DC42001C;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.s2 #whole-el #el2 h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.s2 #whole-el #el2 p {
+    width: 304px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 26.25px;
+}
+
+.s2 #whole-el #el3 {
+    margin-top: 63px;
+    background: var(--brown-box);
+    width: 378px;
+    height: 348px;
+    border-radius: 20px;
+    padding-top: 64px;
+    padding-left: 37px;
+}
+
+.s2 #whole-el #el3 h5 {
+    width: 140px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    background: #00DC8D1C;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.s2 #whole-el #el3 h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.s2 #whole-el #el3 p {
+    width: 304px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 26.25px;
+}
+
+.s3 {
+    height: 751px;
+    font-family: poppins;
+    color: white;
+}
+
+.s3 #whole-el {
+    background: var(--brown-box);
+    height: 603px;
+    display: flex;
+}
+
+.s3 #whole-el img {
+    margin-left: 110px;
+    margin-top: 113px;
+    width: 496px;
+    height: 490px;
+    border-radius: 24px, 24px, 0, 0;
+}
+
+.s3 #whole-el #el1 {
+    margin-left: 95px;
+    margin-top: 134px;
+    width: 531px;
+}
+
+.s3 #whole-el #el1 h5{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.s3 #whole-el #el1 h3{
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44.1px;
+}
+
+.s3 #whole-el #el1 p{
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32.4px;
+}
+
+.s4 {
+    height: 508px;
+    font-family: poppins;
+    padding-left: 110px;
+    color: white;
+}
+.s4 h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.s4 #whole-el {
+    width: 1264px;
+    display: flex;
+    margin-top: 53px;
+    justify-content: space-between;
+}
+
+.s4 #whole-el #el1 {
+    padding-top: 35px;
+    background: var(--brown-box) ;
+    width: 295px;
+    height: 253px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.s4 #whole-el #el1 h3{
+    margin-top: -5px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 38.48px;
+}
+
+.s4 #whole-el #el1 h6{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.s4 #whole-el #el1 img{
+    width: 123px;
+    height: 123px;
+}
+
+.s4 #whole-el #el2 {
+    padding-top: 41px;
+    background: var(--brown-box) ;
+    width: 295px;
+    height: 253px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.s4 #whole-el #el2 h3{
+    margin-top: -5px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 38.48px;
+}
+
+.s4 #whole-el #el2 h6{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.s4 #whole-el #el2 img{
+    width: 117px;
+    height: 117px;
+}
+
+.s4 #whole-el #el3 {
+    padding-top: 45px;
+    background: var(--brown-box) ;
+    width: 295px;
+    height: 253px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.s4 #whole-el #el3 h3{
+    margin-top: -1px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 38.48px;
+}
+
+.s4 #whole-el #el3 h6{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.s4 #whole-el #el3 img{
+    width: 109px;
+    height: 109px;
+}
+
+.s4 #whole-el #el4 {
+    padding-top: 47px;
+    background: var(--brown-box) ;
+    width: 295px;
+    height: 253px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.s4 #whole-el #el4 h3{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 38.48px;
+}
+
+.s4 #whole-el #el4 h6{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.s4 #whole-el #el4 img{
+    width: 106px;
+    height: 106px;
+}
+
+.s5 {
+    height: 555px;
+}
+  
+.s5 #whole-el {
+    font-family: poppins;
+    margin-left: 135px;
+    color: white;
+}
+  
+.s5 #whole-el #el1{
+    width: 545px;
+}
+  
+.s5 #whole-el #el1 h3{
+    margin-top: 0;
+    font-weight: 600px;
+    font-size: 30px;
+}
+  
+.s5 #whole-el #el1 p{
+    margin-top: 32px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+}
+  
+.s5 #whole-el #el2 {
+    margin-top: 74px;
+    width: 1170px;
+    height: 189px;
+    border-radius: 15px;
+    background: var(--brown-box);
+    color: white;
+    display: flex;
+}
+  
+.s5 #whole-el #el2 #sub-el2-1 {
+    width: 636px;
+    margin-top: 40px;
+    margin-left: 56px;
+}
+  
+.s5 #whole-el #el2 #sub-el2-1 h3{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 30px;
+}
+  
+.s5 #whole-el #el2 #sub-el2-1 p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5px;
+}
+  
+.s5 #whole-el #el2 #sub-el2-2 {
+    width: 385.68px;
+    height: 48px;
+    background: white;
+    border-radius: 8px;
+    margin-left: 42.32px;
+    margin-top: 71px;
+    display: flex;
+}
+  
+.s5 #whole-el #el2 #sub-el2-2-a {
+    width: 155px;
+    height: 20px;
+    color: #898989;
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 20.55px;
+    margin-top: 14px;
+    text-align: center;
+}
+  
+.s5 #whole-el #el2 #sub-el2-2-b {
+    width: 105px;
+    height: 37px;
+    background: var(--secondary-color);
+    border-radius: 8px;
+    margin-left: 98.8px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 6px;
+    padding-top: 8px;
+}
+
+.foot {
+    background-color: var(--black-700);
+    width: 1440px;
+    height: 376px;
+    font-family: poppins;
+}
+  
+.foot #el1 {
+    width: 1219px;
+    padding-top: 79px;
+    margin-left: 101px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.foot #el1 #sub-el1-1 {
+    width: 372px;
+}
+  
+.foot #el1 #sub-el1-1 h3{
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 24px;
+}
+  
+.foot #el1 #sub-el1-1 #p1{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+  
+.foot #el1 #sub-el1-1 #p2{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+  
+.foot #el1 #sub-el1-2 {
+    width: 150px;
+}
+  
+.foot #el1 #sub-el1-2 h3{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+  
+.foot #el1 #sub-el1-2 ul{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+  
+.foot #el1 #sub-el1-3 {
+    width: 282px;
+}
+  
+.foot #el1 #sub-el1-3 h3{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.foot #el1 #sub-el1-3 #p1{
+    margin-top: 20px;
+    height: 76px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.foot #el1 #sub-el1-3 #p2{
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+  
+.foot #el1 #sub-el1-4{
+    margin-top: 117px;
+    display: flex;
+    width: 184px;
+    justify-content: space-between;
+}
+  
+.foot #el1 #sub-el1-4 img{
+    width: 34px;
+    height: 34px;
+}
+
+.foot hr {
+    margin-top: 53px;
+    height: 0.8px;
+    background-color: #D2D2D2;
+    border: none;
+}
+
+.foot #el2 p {
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+  
+.foot #el2 p span{
+    font-weight: 700;
+    font-size: 13px;
+}
