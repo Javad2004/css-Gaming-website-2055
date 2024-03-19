@@ -491,13 +491,13 @@
 
 .s6 #whole-el #el1 h3 {
   margin-top: 0;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 30px;
 }
 
 .s6 #whole-el #el1 p {
   margin-top: 32px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }

@@ -181,22 +181,19 @@
 
 .s1 #el1 #sub-el1-1 {
     margin-top: 57.16px;
-    padding-top: 10.84px;
+    padding: 11.84px;
     width: 176px;
     height: 47.84px;
     background: var(--secondary-color);
     border-radius: 40px;
+    font-size: 16px;
+    font-weight: 500;
     display: flex;
     justify-content: center;
 }
 
-.s1 #el1 #sub-el1-1 div {
-    font-size: 16px;
-    font-weight: 500px;
-}
-
 .s1 #el1 #sub-el1-1 i {
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 18px;
     font-size: 18px;
 }
@@ -505,7 +502,7 @@
 .s5 {
     height: 555px;
 }
-  
+
 .s5 #whole-el {
     font-family: poppins;
     margin-left: 135px;
@@ -518,13 +515,13 @@
   
 .s5 #whole-el #el1 h3 {
     margin-top: 0;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 30px;
 }
   
 .s5 #whole-el #el1 p {
     margin-top: 32px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
 }
