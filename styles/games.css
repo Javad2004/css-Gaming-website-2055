@@ -185,12 +185,19 @@
     height: 47.84px;
     background: var(--secondary-color);
     border-radius: 40px;
-    text-align: center;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
-.s1 #el1 #sub-el1-1 img{
+.s1 #el1 #sub-el1-1 div {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.s1 #el1 #sub-el1-1 i {
+    margin-top: 5px;
     margin-left: 18px;
+    font-size: 18px;
 }
 
 .s1 #whole-el {
@@ -670,7 +677,41 @@
     margin-top: 117px;
     display: flex;
     width: 184px;
+    height: 34px;
     justify-content: space-between;
+}
+  
+.foot #el1 #sub-el1-4 div{
+    color: var(--black-700);
+    background-color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    text-align: center;
+}
+  
+.foot #el1 #sub-el1-4 div #i1{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-size: 15px;
+}
+  
+.foot #el1 #sub-el1-4 div #i2{
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-size: 15px;
+}
+  
+.foot #el1 #sub-el1-4 div #i3{
+    margin-top: 11px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+  
+.foot #el1 #sub-el1-4 div #i4{
+    margin-top: 11px;
+    margin-bottom: 12px;
+    font-size: 15px;
 }
   
 .foot #el1 #sub-el1-4 img{
