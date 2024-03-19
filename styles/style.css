@@ -201,7 +201,7 @@
   width: 96px;
   height: 30px;
   margin-top: 309px;
-  margin-left: 22.37px;
+  margin-left: -25px;
 }
 
 .s1 #el3 img{
@@ -209,7 +209,7 @@
   width: 101px;
   height: 99px;
   margin-top: 102px;
-  margin-left: 201.37px;
+  margin-left: 154px;
 }
 
 .s1 #el4 img{
@@ -217,14 +217,14 @@
   width: 59px;
   height: 64px;
   margin-top: 118px;
-  margin-left: 541.37px;
+  margin-left: 494px;
 }
 
 .s1 #el5 img{
   position: absolute;
   width: 667px;
   height: 761px;
-  margin-left: 145.37px;
+  margin-left: 98px;
   margin-top: -100px;
   z-index: -1;
 }
