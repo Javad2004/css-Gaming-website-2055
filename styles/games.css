@@ -66,11 +66,9 @@
 }
 
 .head {
-    padding-top: 3px;
     background-color: var(--bg-gradint);
     width: 1440px;
     height: 100px;
-    padding-left: 0.23px;
     font-family: poppins;
     color: white;
     display: flex;
