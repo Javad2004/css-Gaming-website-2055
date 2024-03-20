@@ -233,16 +233,17 @@
 .s2 {
   height: 555px;
   color: white;
+  padding-left: 148px;
 }
 
 .s2 #el1 {
   display: flex;
   font-family: rubik;
-  margin-left: 148px;
+  width: 1140px;
+  justify-content: space-between;
 }
 
 .s2 #el1 #sub-el1-1 {
-  width: 404px;
   font-size: 31px;
   font-weight: 700;
 }
@@ -250,7 +251,6 @@
 .s2 #el1 #sub-el1-2 {
   width: 139px;
   height: 57px;
-  margin-left: 603px;
   padding-top: 15px;
   font-size: 20px;
   font-weight: 500;
@@ -263,7 +263,6 @@
   margin-top: 57px;
   display: flex;
   width: 1140px;
-  margin-left: 158px;
   justify-content: space-between;
   list-style-type: none;
 }
