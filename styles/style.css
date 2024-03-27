@@ -86,20 +86,31 @@
 
 .head #el2 {
   width: 673.77px;
-  height: 41.34px;
   margin-left: 566px;
-  margin-top: 32px;
+  margin-top: 40px;
   font-weight: 400;
   font-size: 16px;
   display: flex;
+  justify-content: space-between;
+}
+
+.head #el2 a{
+  text-decoration: none;
+  color: white;
 }
 
 .head #sub-el2-1 {
-  width: 505.41px;
-  margin-top: 8px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: -8px;
+  font-size: 13px;
+  font-weight: 400;
+  width: 131.77px;
+  height: 41.34px;
+  padding-top: 10px;
+  background: var(--secondary-color);
+  border-radius: 6px;
+  text-align: center;
 }
+
 
 .head #sub-el2-1-a {
   display: flex;
@@ -126,17 +137,6 @@
   border: none;
 }
 
-.head #sub-el2-2 {
-  color: white;
-  font-size: 13px;
-  font-weight: 400;
-  width: 131.77px;
-  margin-left: 36.59px;
-  padding-top: 10px;
-  background: var(--secondary-color);
-  border-radius: 6px;
-  text-align: center;
-}
 
 .main {
   position: relative;
@@ -194,6 +194,7 @@
 }
 
 .s1 #el1 #sub-el1-2 a {
+  text-decoration: none;
   color: white;
 }
 
@@ -257,6 +258,8 @@
   border-radius: 10px;
   background: var(--primary-100);
   text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .s2 #el2 {
@@ -460,17 +463,19 @@
 
 
 .s5 #el2 {
-  margin-top: 72px;
-  margin-left: 651px;
-  padding-top: 15px;
+  display: block;
   width: 139px;
   height: 57px;
-  background: var(--primary-100);
-  border-radius: 10px;
-  text-align: center;
-  font-family: rubik;
+  margin-left: 651px;
+  margin-top: 72px;
+  padding-top: 15px;
   font-size: 20px;
   font-weight: 500;
+  font-family: rubik;
+  border-radius: 10px;
+  background: var(--primary-100);
+  text-align: center;
+  text-decoration: none;
   color: white;
 }
 
@@ -543,12 +548,13 @@
 .s6 #whole-el #el2 #sub-el2-2-a {
   width: 155px;
   height: 20px;
-  color: #898989;
+  color: var(--black-700);
   font-weight: 300;
   font-size: 13px;
   margin-left: 20.55px;
   margin-top: 14px;
-  text-align: center;
+  border: none;
+  outline: none;
 }
 
 .s6 #whole-el #el2 #sub-el2-2-b {
@@ -556,12 +562,11 @@
   height: 37px;
   background: var(--secondary-color);
   border-radius: 8px;
+  border: none;
   margin-left: 98.8px;
-  text-align: center;
+  margin-top: 6px;
   font-weight: 400;
   font-size: 13px;
-  margin-top: 6px;
-  padding-top: 8px;
 }
 
 .foot {

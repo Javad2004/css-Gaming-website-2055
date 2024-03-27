@@ -15,40 +15,34 @@
         <div id="el1">
           LOGO
         </div>
-        <div id="el2">
-          <div id="sub-el2-1">
-            <div>
-              Home
-            </div>
-            <div>
-              Games
+        <nav id="el2">
+          <a href="index.html">Home</a>
+          <div>
+            <a href="games.html">Games</a>
               <div id="sub-el2-1-a">
                 <hr id="hr1">
                 <hr id="hr2">
               </div>
-            </div>
-            <div>
-              About Us
-            </div>
-            <div>
-              News
-            </div>
           </div>
-          <div id="sub-el2-2">
-            Light
-          </div>
-        </div>
+          <a href="#">About Us</a>
+          <a href="#">News</a>
+          <a href="games.html" id="sub-el2-1">Light</a>
+        </nav>
     </header>
     <main class="main">
       <section class="s1">
         <div id="whole-el">
             <div id="el1">
-                <h6>Home > <span>Games</span></h6>
+                <div id="sub-el1-1">
+                    <a href="index.html" id="link-1">Home</a>
+                    >
+                    <a href="games.html" id="link-2">Games</a>
+                </div>
                 <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <div id="sub-el1-1">
+                <a href="#" id="sub-el1-2">
                     Get in touch <i class="material-icons">arrow_forward</i>
-                </div>
+                </a>
             </div>
             <div id="el2">
                 <img src="assets/images/Rectangle 6.png" alt="image">
@@ -128,12 +122,8 @@
                 <p>Subscribe to receive the latest news and updates about TDA.<br>we promise not to spam you!</p>
             </div>
             <div id="sub-el2-2">
-                <div id="sub-el2-2-a">
-                  Enter email address
-                </div>
-                <div id="sub-el2-2-b">
-                  Continue
-                </div>
+                <input type="email" id="sub-el2-2-a" placeholder="Enter email address">
+                <button id="sub-el2-2-b">Continue</button>
             </div>
           </div>
         </div>

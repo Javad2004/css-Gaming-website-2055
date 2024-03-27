@@ -84,19 +84,34 @@
 
 .head #el2 {
     width: 673.77px;
-    height: 41.34px;
     margin-left: 566px;
-    margin-top: 32px;
+    margin-top: 40px;
     font-weight: 400;
     font-size: 16px;
     display: flex;
+    justify-content: space-between;
+}
+
+.head #el2 a{
+    text-decoration: none;
+    color: white;
 }
 
 .head #sub-el2-1 {
-    width: 505.41px;
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-between;
+    margin-top: -8px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 131.77px;
+    height: 41.34px;
+    padding-top: 10px;
+    background: var(--secondary-color);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.head #el2 a{
+  text-decoration: none;
+  color: white;
 }
 
 .head #sub-el2-1-a {
@@ -122,18 +137,6 @@
     background-color: var(--secondary-color);
     border-radius: 20px;
     border: none;
-}
-
-.head #sub-el2-2 {
-    color: white;
-    font-size: 13px;
-    font-weight: 400;
-    width: 131.77px;
-    margin-left: 36.59px;
-    padding-top: 10px;
-    background: var(--secondary-color);
-    border-radius: 6px;
-    text-align: center;
 }
 
 .main {
@@ -180,6 +183,22 @@
 }
 
 .s1 #el1 #sub-el1-1 {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1 #el1 #sub-el1-1 #link-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.s1 #el1 #sub-el1-1 #link-2 {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.s1 #el1 #sub-el1-2 {
     margin-top: 57.16px;
     padding-top: 11.84px;
     width: 176px;
@@ -190,9 +209,11 @@
     font-weight: 500;
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
 }
 
-.s1 #el1 #sub-el1-1 i {
+.s1 #el1 #sub-el1-2 i {
     margin-top: 3px;
     margin-left: 18px;
     font-size: 18px;
@@ -246,7 +267,7 @@
     background: #B000DC1C;
     border-radius: 8px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
 .s2 #whole-el #el1 h3 {
@@ -281,7 +302,7 @@
     background: #DC42001C;
     border-radius: 8px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
 .s2 #whole-el #el2 h3 {
@@ -316,7 +337,7 @@
     background: #00DC8D1C;
     border-radius: 8px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
 .s2 #whole-el #el3 h3 {
@@ -484,6 +505,7 @@
 }
 
 .s4 #whole-el #el4 h3 {
+    margin-top: 0;
     font-weight: 600;
     font-size: 19px;
     line-height: 38.48px;
@@ -568,12 +590,13 @@
 .s5 #whole-el #el2 #sub-el2-2-a {
     width: 155px;
     height: 20px;
-    color: #898989;
+    color: var(--black-700);
     font-weight: 300;
     font-size: 13px;
     margin-left: 20.55px;
     margin-top: 14px;
-    text-align: center;
+    border: none;
+    outline: none;
 }
   
 .s5 #whole-el #el2 #sub-el2-2-b {
@@ -581,12 +604,11 @@
     height: 37px;
     background: var(--secondary-color);
     border-radius: 8px;
+    border: none;
     margin-left: 98.8px;
-    text-align: center;
+    margin-top: 6px;
     font-weight: 400;
     font-size: 13px;
-    margin-top: 6px;
-    padding-top: 8px;
 }
 
 .foot {
